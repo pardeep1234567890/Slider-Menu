@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href=""><img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/Crest-1.png" alt=""></a>
+        </div>
+        <div class="top">
+            <div class="topLeft">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        +353016282077
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        admin@lucancc.ie
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        Mon-Fri 9am - 4.00pm
+                    </li>
+                </ul>
+            </div>
+            <div class="topRight">
+                <ul>
+                    <li><a href="">Payments</a></li>
+                    <li><a href="">VSware</a></li>
+                    <li><a href="">Office 365</a></li>
+                    <li><a href=""><img width="40px"
+                                src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/Crest-1.png" alt="logo">
+                            App</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="Sidebar">
+            <li onclick="hideSiderbar()"><i class="fa-solid fa-xmark"></i></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Parents/Gurdians</a></li>
+            <li><a href="">Programes</a></li>
+            <li><a href="">Extra-Curricullar</a></li>
+            <li><a href="">Transition Year</a></li>
+            <li><a href="">Students</a></li>
+            <li><a href="">Policies</a></li>
+        </ul>
+        <div class="bottom">
+            <ul>
+                <li class="hideOnMoblie"><a href="">Home</a></li>
+                <li class="hideOnMoblie">
+                    <a href="">
+                        <div class="dropdownContainer">
+                            About Us
+                            <div class="dropdownContent">
+                                <a href="">Principal's Welcome</a>
+                                <a href="">Aims</a>
+                                <a href="">Mission Statement & Ethos</a>
+                                <a href="">Our Staff</a>
+                                <a href="">School Self Evaluation</a>
+                                <a href="">Prospectus</a>
+                                <a href="">Board of Management</a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="hideOnMoblie">
+                    <a href="">
+                        <div class="dropdownContainer">
+                            Parents/Gurdians
+                            <div class="dropdownContent">
+                                <a href="">1st Year</a>
+                                <a href="">2nd Year</a>
+                                <a href="">3rd Year</a>
+                                <a href="">4th Year</a>
+                                <a href="">6th Year</a>
+                                <a href="">Parents Association</a>
+                                <a href="">Wellbeing</a>
+                                <a href="">Admissions</a>
+                                <a href="">Incoming First Years 2024</a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="hideOnMoblie">
+                    <a href="">
+                        <div class="dropdownContainer">
+                            Programes
+                            <div class="dropdownContent">
+                                <a href="">Junior Cycle</a>
+                                <a href="">Senior Cycle</a>
+                                <a href="">Adult Education</a>
+                                <a href="">Leaving Cert Applied</a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="hideOnMoblie"><a href="">Extra-Curricullar</a></li>
+                <li class="hideOnMoblie"><a href="">Transition Year</a></li>
+                <li class="hideOnMoblie">
+                    <a href="">
+                        <div class="dropdownContainer">
+                            Students
+                            <div class="dropdownContent">
+                                <a href="">Guidance</a>
+                                <a href="">Canteen Documents</a>
+                                <a href="">Pastoral Care</a>
+                                <a href="">Student Council</a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="hideOnMoblie"><a href="#">Policies</a></li>
+                <li class="hideOnMoblie"><a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li onclick="showSidebar()"><a href="#" class="menu"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </div>
+       
+    </nav>
+
+
+    <main>
+        <img src="https://picsum.photos/id/236/1400/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/237/1400/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/238/1400/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/239/1400/500" class="slide" alt="">
+        <div class="button">
+            <button class="button-left" onclick="goPrev()">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="button-right" onclick="goNext()">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+  
+    </main>
+
+    <div class="diffOption">
+        <div class="container">
+            <div class="image">
+                <img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/News-icon-1.png" alt="News icon">
+            </div>
+            <div class="text">
+                <p>News</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/Calendar-icon-1.png"
+                    alt="News icon">
+            </div>
+            <div class="text">
+                <p>Calendar</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/Gallery-icon-1.png" alt="News icon">
+            </div>
+            <div class="text">
+                <p>Gallery</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/App-icon-1-1.png" alt="News icon">
+            </div>
+            <div class="text">
+                <p>School App</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/VS-icon-1.png" alt="News icon">
+            </div>
+            <div class="text">
+                <p>VSware</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="https://izapserver.co.in/lucan/wp-content/uploads/2024/07/Payments.png" alt="News icon">
+            </div>
+            <div class="text">
+                <p>Payments</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="	https://izapserver.co.in/lucan/wp-content/uploads/2024/07/Office-365.png" alt="News icon">
+            </div>
+            <div class="text">
+                <p>Office 365</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
